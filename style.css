@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: blue;
+    box-sizing: border-box;
+    color: azure;
+    background-size: 100%;
+    background-image: url(galeria/foto_espaco.jpg)
+
+
+}
+
+.apresentacao {
+    margin: 15% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo_destaque {
+    color: aqua;
+
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.titulo__apresentacao {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__paragrafo {
+    font-size: 24px;
+}
+
+.imagem_carina {
+    border-radius: 4%;
+}
+
+.subtitulo__links {
+    font-family: 'Krone One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentao__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+
+
+}
+
+.apresentacao__botao {
+    border: 2px solid aqua;
+    text-align: center;
+    padding: 10px;
+    width: 250px;
+    font-weight: 600;
+    border-radius: 15px;
+    font-size: 24px;
+    text-decoration: none;
+    color: aqua;
+    font-family: 'Montserrat', sans-serif;
+
+}
