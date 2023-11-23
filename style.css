@@ -5,29 +5,39 @@
     padding: 0;
 }
 
-@media screen and (max-width: 768px){
-    body{
-        width: 100%;
-        flex-direction: column;
-    }
-}
+
+
 
 body {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    height: 100vh;
-    background-color: blue;
+    position: relative;
     box-sizing: border-box;
+    background-color: black;
     color: azure;
-    background-size: 100%;
-    background-image: url(galeria/foto_espaco.jpg)
+    Background-size: 100%;
+    background-image: url(/galeria/foto_espaco.jpg);
+    
+}
 
+.cabecalho {
+    padding: 2% 0% 0% 18%;
+}
 
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__links {
+    font-family: 'montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: aqua;
+    text-decoration: none;
+    
 }
 
 .apresentacao {
-    margin: 15% 15%;
+    padding: 7% 18%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,16 +58,19 @@ body {
 .titulo__apresentacao {
     font-size: 36px;
     font-family: 'Krona One', sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    
 }
 
 .apresentacao__paragrafo {
     font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.imagem_carina {
-    border-radius: 4%;
-    width: 620px;
+.minha_foto {
+    border-radius: 2%;
+    width: 400px;
+    height: 420px;
+    
 }
 
 .subtitulo__links {
@@ -94,5 +107,21 @@ body {
 }
 
 .apresentacao__botao:hover {
-    background-color: white;
+    background-color: black;
+}
+
+.rodape {
+    color: black;
+    background-color: aqua;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 450;
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
+
+    
+    
 }
